@@ -6,6 +6,9 @@ const connectDB = require('./config/db');
 
 // Route files
 const bootcamps = require('./routes/bootcamps');
+const auth = require('./routes/auth');
+const questions = require('./routes/questions');
+
 dotenv.config({ path: "./config/config.env" });
 
 // connect to db
@@ -15,6 +18,8 @@ connectDB();
 
 const app = express();
 
+app.use(express.json());
+
 // Dev logging middleware
 if(process.env.NODE_ENV === 'development'){
     app.use(morgan('dev'))
@@ -22,6 +27,9 @@ if(process.env.NODE_ENV === 'development'){
 
 // MOunt routers
 app.use('/api/v1/bootcamps',bootcamps);
+app.use('/api/v1/auth',auth)
+app.use('/api/v1/questions',questions)
+
 
 const PORT = process.env.PORT || 5000;
 
