@@ -8,4 +8,8 @@ POSTMAN DOC : https://crimson-station-494015.postman.co/workspace/New-Team-Works
 ![image](https://github.com/Gaurav098766/demo100/assets/97042529/d9af05d0-2fe8-4f7c-b721-df1e08e9faf5)
 
 
-AWS EC2 LINK : http://13.233.178.211:5000
+AWS EC2 LINK : http://15.207.113.102:5000
+
+In the above link replace add the links in the post documnet to see the working of API's
+
+For example: for GET all the questions : http://15.207.113.102:5000/api/v1/questions/getQuestions
