@@ -10,6 +10,6 @@ POSTMAN DOC : https://crimson-station-494015.postman.co/workspace/New-Team-Works
 
 AWS EC2 LINK : http://15.207.113.102:5000
 
-In the above link replace add the links in the post documnet to see the working of API's
+In the above link replace add the links in the Postman documnet to see the working of API's
 
 For example: for GET all the questions : http://15.207.113.102:5000/api/v1/questions/getQuestions
