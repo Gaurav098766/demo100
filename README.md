@@ -5,4 +5,7 @@ POSTMAN DOC : https://crimson-station-494015.postman.co/workspace/New-Team-Works
 ![image](https://github.com/Gaurav098766/demo100/assets/97042529/b561e063-dd5a-4166-8e17-2d7dca087efe)
 
 
+![image](https://github.com/Gaurav098766/demo100/assets/97042529/d9af05d0-2fe8-4f7c-b721-df1e08e9faf5)
+
+
 AWS EC2 LINK : http://13.233.178.211:5000
